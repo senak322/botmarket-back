@@ -3,7 +3,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const token = "6537000218:AAGorXhX46H45K1kpt1W1MpdnCBuZwGwero";
 
 const bot = new TelegramBot(token, { polling: true });
-const webAppUrl = 'https://ya.ru'
+const webAppUrl = 'https://lucky-eclair-504d7b.netlify.app/'
 
 bot.on("message", async (msg) => {
   const chatId = msg.chat.id;
