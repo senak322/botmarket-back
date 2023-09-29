@@ -1,0 +1,26 @@
+{
+  "name": "botmarket-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senak322/botmarket-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senak322/botmarket-back/issues"
+  },
+  "homepage": "https://github.com/senak322/botmarket-back#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.63.0"
+  }
+}
